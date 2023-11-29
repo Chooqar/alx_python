@@ -8,7 +8,7 @@ number = random.randint(-10000, 10000)
 last_digit = abs(number) % 10
 
 # Output the specified format
-print("Last digit of", number, "is", last_digit, end=" ")
+print("Last digit of", -number, "is", last_digit, end=" ")
 
 # Check the conditions and print the appropriate message
 if last_digit > 5:
