@@ -1,3 +1,3 @@
 for number in range(100):
-    s =str(number)
-    print ("{},".format(number,(",")))
+    print("{:2},".format(number), end='')
+    print()
