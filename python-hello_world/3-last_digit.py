@@ -6,10 +6,9 @@ number = random.randint(-10000, 10000)
 
 # Extract the last digit of the number
 last_digit = abs(number) % 10
-
 # Output the specified format
 if number < 0:
-    last_digit *=-1
+    last_digit *= -1
 
 # Check the conditions and print the appropriate message
 if last_digit > 5:
