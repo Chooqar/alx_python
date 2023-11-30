@@ -7,4 +7,4 @@ def is_prime(number):
         for y in range(2, number):
             if number % y == 0:
                 return False
-            return True
+        return True
