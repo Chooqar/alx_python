@@ -3,6 +3,6 @@ for tens_digit in range(10):
         if units_digit ==9 and tens_digit == 8:
              print("{:d}{:d}".format(tens_digit, units_digit), end='', flush=True)
         else:
-            print("{:d}{:d}".format(tens_digit, units_digit), end=',', flush=True)
+            print("{:d}{:d}, ".format(tens_digit, units_digit), end='', flush=True)
 # Output a newline at the end
 print()
