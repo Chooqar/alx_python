@@ -13,6 +13,7 @@ def validate_password(password):
              elif char.isdigit():
                  return True
     return False       
+
    
 
     
