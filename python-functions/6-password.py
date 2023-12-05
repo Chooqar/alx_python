@@ -19,6 +19,7 @@ def validate_password(password):
 
         # Check if the password meets all conditions
         return has_upper and has_lower and has_digit
+    return True
    
 
     
